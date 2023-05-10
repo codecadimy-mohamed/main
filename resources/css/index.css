@@ -91,7 +91,7 @@ main .about-me-image {
 }
 
 
-main .about-me-image .eyes-area-l::before {
+main .about-me-image .eyes-area-l .eye-cercle-l {
   content: "";
   position: absolute;
   width: 13px;
@@ -100,6 +100,7 @@ main .about-me-image .eyes-area-l::before {
   top: 30%;
   right: 27%;
   border-radius: 50%;
+  transition: 0.7s;
 }
 
 main .about-me-image .eyes-area-l {
@@ -112,8 +113,7 @@ main .about-me-image .eyes-area-l {
   border-radius: 50%;
 }
 
-main .about-me-image .eyes-area-r::before {
-  content: "";
+main .about-me-image .eyes-area-r .eye-cercle-r {
   position: absolute;
   width: 13px;
   height: 11px;
@@ -121,6 +121,7 @@ main .about-me-image .eyes-area-r::before {
   top: 30%;
   left: 27%;
   border-radius: 50%;
+  transition: 0.7s;
 }
 
 main .about-me-image .eyes-area-r {
@@ -131,6 +132,20 @@ main .about-me-image .eyes-area-r {
   right: 20%;
   top: 25%;
   border-radius: 50%;
+}
+
+main .about-me-image .mouth {
+  width: 50%;
+  height: 30px;
+  border: 1.5px solid;
+  border-color: transparent beige beige;
+  border-radius: 40%;
+  color: beige;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.1s;
 }
 
 /* End main */
