@@ -87,7 +87,7 @@ main .about-me-description {
 }
 
 
-main .about-me-image {
+main .about-me-face {
   width: 30%;
   justify-self: center;
   border: 1px solid  var(--secondery-color);
@@ -96,7 +96,7 @@ main .about-me-image {
 }
 
 
-main .about-me-image .eyes-area-l .eye-cercle-l {
+main .about-me-face .eyes-area-l .eye-cercle-l {
   content: "";
   position: absolute;
   width: 13px;
@@ -108,7 +108,7 @@ main .about-me-image .eyes-area-l .eye-cercle-l {
   transition: 0.7s;
 }
 
-main .about-me-image .eyes-area-l {
+main .about-me-face .eyes-area-l {
   width: 23%;
   height: 15%;
   background-color: var(--secondery-color);
@@ -118,7 +118,7 @@ main .about-me-image .eyes-area-l {
   border-radius: 50%;
 }
 
-main .about-me-image .eyes-area-r .eye-cercle-r {
+main .about-me-face .eyes-area-r .eye-cercle-r {
   position: absolute;
   width: 13px;
   height: 11px;
@@ -129,7 +129,7 @@ main .about-me-image .eyes-area-r .eye-cercle-r {
   transition: 0.7s;
 }
 
-main .about-me-image .eyes-area-r {
+main .about-me-face .eyes-area-r {
   width: 23%;
   height: 15%;
   background-color: var(--secondery-color);
@@ -139,21 +139,21 @@ main .about-me-image .eyes-area-r {
   border-radius: 50%;
 }
 
-main .about-me-image .mouth {
+main .about-me-face .mouth {
   width: 50%;
   height: 30px;
-  border: 1.5px solid;
+  border-bottom: 1.5px solid;
   border-color: transparent var(--secondery-color) var(--secondery-color);
-  border-radius: 40%;
+  border-radius: 0;
   color: var(--secondery-color);
   position: absolute;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 0.1s;
+  transition: 0.3s;
 }
 
-main .about-me-image .thought-bubble {
+main .about-me-face .thought-bubble {
   content: "";
   visibility: hidden;
   position: absolute;
@@ -299,6 +299,7 @@ main .about-me-image .thought-bubble {
 .contact .social-container p:hover {
   background-color: var(--main-color);
   color: var(--secondery-color);
+  border-color: #f5f5dccc;
 }
 
 /* End contact */
