@@ -148,6 +148,23 @@ main .about-me-image .mouth {
   transition: 0.1s;
 }
 
+main .about-me-image .thought-bubble {
+  content: "";
+  visibility: hidden;
+  position: absolute;
+  min-width: 120px;
+  width: auto;
+  height: auto;
+  padding: 5px 10px;
+  overflow: hidden;
+  transition: 0.3s;
+  top: -30px;
+  left: 120%;
+  right: -20%;
+  border: 1px solid beige;
+  transform: translate(-50%, -50%);
+}
+
 /* End main */
 
 /* Start skills */
