@@ -190,7 +190,7 @@ main .about-me-image .thought-bubble {
   text-decoration: none;
 }
 
-.skills ul li a:hover {
+.skills ul li:hover  a {
   text-decoration: none;
   margin-left: 10px;
   border-bottom: none;
